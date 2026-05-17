@@ -208,7 +208,7 @@ export default function LoginPage({ onLogin }: Props) {
             Use {authMethod === 'otp' ? 'Email & Password' : 'Phone & OTP'}
           </button>
           <button onClick={switchMode} className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
-            {isSigningUp ? 'Already have an account? Login' : "Don&apos;t have an account? Signup"}
+            {isSigningUp ? 'Already have an account? Login' : "Don't have an account? Signup"}
           </button>
         </div>
       </div>
